@@ -1,0 +1,89 @@
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+        .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+        .fa-anchor,.fa-coffee {font-size:200px}
+
+        </style>
+    </head>
+
+    <body>
+        <div class="w3-top">
+            <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+              <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+              <a href="graphics.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Interesting Graphics</a>
+              <a href="questions.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Questions 2-4</a>
+              <a href="extra1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Seasonal</a>
+              <a href="combos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Trip Combos</a>
+              <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+            </div>
+
+        </div>
+
+
+        <div class="w3-row-padding w3-padding-64 w3-container">
+
+            <div class="w3-content w3-left" style = "max-width: 800px; margin-left: 120px">
+                    <br>
+                    <br>
+                    <h1>Most Popular Start and End Stations</h1>
+                    <p class="w3-text-grey">This was previously discussed with Interesting Graphics#3, but the most popular starting station has id <strong> 3069 </strong>, with 6262 starting trips. The most popular ending station
+                                             has id <strong> 3005 </strong> and has 5095 ending trips. Interestingly, the list of the most popular stations which riders leave from and end at, are actually stations <strong> 3005 </strong> and <strong>
+                                             3069</strong>.
+                    </p>
+            </div>
+
+            <div class="w3-right">
+                <img src="imgs/startstationcounts.PNG" style = "width: 150; margin-right: 40px"></img>
+                <img src ="imgs/endstationcounts.PNG" style = "width: 150; margin-right: 80px"> </img>
+
+            </div>
+
+        </div>
+
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+            <div class="w3-content w3-left" style = "max-width: 600px; margin-left: 200">
+                    <br>
+                    <br>
+                    <h1>Average Distance Traveled</h1>
+                    <p class="w3-text-grey"> The Average Distance Traveled for all riders is <strong>0.648 miles </strong>, which is the dotted black line on the histogram on the right. The distribution of ride
+                        distances is right-skewed, so most values close to the stated mean ride distance.
+                    </p>
+            </div>
+
+            <div class="w3-right" style = " margin-right: 200">
+                <img src="imgs/distances.png" style = "height = 100%"></img>
+            </div>
+
+        </div>
+
+        <div class="w3-row-padding w3-padding-64 w3-container">
+            <div class="w3-content w3-right" style = "max-width: 600px; margin-right: 100">
+                    <h1>Commute Logistics</h1>
+                    <p class="w3-text-grey"> According to <a href="https://flowingdata.com/2015/02/04/when-do-americans-leave-for-work/">this article regarding Commute hours</a>, L.A. morning commute hours are generally
+                                             between 7 to 9 A.M. (inclusive). After assembling a pivot_table for weekdays and hourly counts, I found that <strong>16,887 riders</strong> use the bikes during morning hours.
+                                             Evening commute hours generally range between 3 to 6 P.M (inclusive), and I found that <strong>17,926 riders</strong> use the bikes during these times. Although it is difficult to
+                                             ascertain from this data that <strong>ALL</strong> riders from these time periods were specifically using the bikes to get to and from work, it makes sense after observing the figure to the left. Approaching
+                                             morning commute hours, the mean number of riders jumps starkly, perhaps indicating many riders need the bikes for a purpose (commuting?); this suddenly drops after morning hours, and
+                                             the same pattern follows for evening commute hours. Therefore, since the graphs agrees with human need, I think this interpretation of commuting riders is correct.
+                    </p>
+            </div>
+
+            <div class="w3-left" style = " margin-left: 100">
+                <img src="imgs/commutes.png" style = "height = 100%"></img>
+            </div>
+
+        </div>
+
+
+    </body>
+</html>

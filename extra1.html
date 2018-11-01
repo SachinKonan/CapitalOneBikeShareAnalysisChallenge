@@ -1,0 +1,91 @@
+
+<html>
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+        .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+        .fa-anchor,.fa-coffee {font-size:200px}
+
+        </style>
+    </head>
+
+    <body>
+        <div class="w3-top">
+            <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+              <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+              <a href="graphics.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Interesting Graphics</a>
+              <a href="questions.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Questions 2-4</a>
+              <a href="extra1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Seasonal</a>
+              <a href="combos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Trip Combos</a>
+              <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+            </div>
+
+        </div>
+
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+            <div class="w3-content w3-left" style = "max-width: 800px; margin-left: 70">
+                    <h1>How RiderShip Plans Change With Seasons</h1>
+                    <p class="w3-text-grey"> The figure to the right shows how the trip frequency of each plan holder changes over several seasons. It is quite clear that the monthly plans, across all seasons, are the most popular plan
+                                            for trips; however, it also has the highest variation, with a standard deviation of 10,194.5 trips -- evident by the near boom-bust cycle occuring between spring and summer. On the other hand,
+                                            the Annual Pass is quite consistent across all seasons, and has the lowest standard deviation of the bunch with a value of 2,379 trips. This means that annual passes are the least susceptible
+                                            to seasonal variations. Monthly Passes are the highest trip earners, but also have the have the largest risk of dropping after seasons.
+                    </p>
+            </div>
+
+            <div class="w3-right" style = " margin-right: 60">
+                <img src="imgs/season1.png" style = "height = 100%"></img>
+            </div>
+
+        </div>
+        <div class="w3-row-padding w3-padding-64 w3-container">
+
+            <div class="w3-left" style = "margin-left: 70">
+                <img src="imgs/season2ride_durations.png" style = "height = 100%"></img>
+                <br>
+                <img src ="imgs/season2_speed.png" style = "height = 100%"> </img>
+            </div>
+
+            <div class="w3-content w3-right" style = "max-width: 800px; margin-right: 80px">
+                    <br>
+                    <h1>How Ride Durations Change With Seasons</h1>
+                    <p class="w3-text-grey">The figure to the top-left shows how the trip duration changes with seasons. All graphs display the same left-skewed distribution, with relatively the same peak normed peak frequency (~0.07).
+                                            This result is somewhat counter-intuitive, because I initially thought people tend to travel faster in extreme weather, i.e summer or winter, but these seasons have nearly the same patterns
+                                            of bike use as the other seasons.
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <h1>How Ride Speeds Change With Seasons</h1>
+                    <p class="w3-text-grey">Ride Speed distributions stay the same across the seasons generally, and there are no outlier patterns here.
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+            <div class="w3-content w3-left" style = "max-width: 600px; margin-left: 70">
+                    <br>
+                    <br>
+                    <br>
+                    <h1>How RiderShip Plans Change With Days, across all Seasons</h1>
+                    <p class="w3-text-grey"> This plot shows a much different trend relative to the previous plots. From these plots, it is quite easy to see that trips that use walk-up plans almost always increase from Monday leading to up to Sunday, while
+                                             those with monthly plans tend to reduce trips. Across all Seasons these patterns remain constant, showing that ridership attitudes are relatively constant across seasons. The potential behavior
+                                             leading to this result will be further discussed in the commute section.
+                    </p>
+            </div>
+
+            <div class="w3-right" style = " margin-right: 60">
+                <img src="imgs/seasonal_daysofweek.png" style = "height = 100%"></img>
+            </div>
+
+        </div>
+    </body>
+</html>

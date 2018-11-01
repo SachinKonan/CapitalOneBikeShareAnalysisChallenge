@@ -1,0 +1,86 @@
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+        .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+        .fa-anchor,.fa-coffee {font-size:200px}
+
+        </style>
+    </head>
+
+    <body>
+        <div class="w3-top">
+            <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+              <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+              <a href="graphics.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Interesting Graphics</a>
+              <a href="questions.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Questions 2-4</a>
+              <a href="extra1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Seasonal</a>
+              <a href="combos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Trip Combos</a>
+              <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-padding-64 w3-container w3-center">
+            <div class="w3-content">
+                <h1>Interesting Graphic #1</h1>
+                <p class="w3-text-grey"> The figure below shows how the trip frequency of each plan holder changes with time. Monthly plans seem to average the largest
+                mean trip frequency; however, walkup plans have the highest peak usage rates. For example, on <strong>October 10, 2016</strong>, there was a record <strong>1003</strong>
+                trips, which after further researcher seemed to be a combination of the day being Columbus Day, and the baseball game between the LA Dodgers and Washington Nationals.
+                </p>
+
+                <img src="imgs/download.png" style = "height = 100%; margin-left: auto;"></img>
+
+            </div>
+        </div>
+
+        <!-- Second Grid -->
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-twothird">
+                    <h1>Interesting Graphic #2</h1>
+                    <p class="w3-text-grey"> The figure to the right shows the distribution of rides throughout the day, for the various plans offered by Bikeshare.
+                    All plans display a right-skewed distribution, with monthly, annual, and walkup plans having increasingly great ride durations. It is interesting to note
+                    that the majority of the area under the curves all reside behind the 30 minute duration mark, which may be correlated to Bikeshare's additional fee after
+                    30 minutes of riding. Monthly, Annual, and Walkup holders pay $1.75, $1.75, and $3.50 per extra 30 minutes.
+                    </p>
+
+                    <p>
+                        <strong> Source: https://la.streetsblog.org/2015/11/09/a-peek-into-metro-bike-shares-proposed-fare-structure/ </strong>
+                    </p>
+                </div>
+
+                <div class="w3-third w3-center">
+                    <img src="imgs/distribution.png" style = "height = 100%"></img>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-padding-64 w3-container w3-center">
+            <div class="w3-content">
+                <h1>Interesting Graphic #3</h1>
+                <p class="w3-text-grey"> The figure below shows a plot of the top 40 locations of all starting and ending BikeShare stations. This X's on this graph
+                    represent latitude and longitude coordinates, and their size/opacity represent how frequent the stations are used. The red dot on either plot
+                    represents latitude/longitude coordinates of the mean station. The circles on the plots have a center equal to the mean lat/long coordinates,
+                    and width/height equal to the mean standard dev of the lat/long coordinates. According to the enclosing circle, it is visually apparent that
+                    the most popular starting stations are relatively close to the mean station compared to the ending stations; hence, why the ending stations'
+                    enclosing circle is larger. This means rides are generally going from inner, closely located starting stations stations to outer, more spread
+                    outer stations.
+                </p>
+
+                <img src = 'imgs/starting.png'></img>
+                <img src="imgs/popular stations.png" style = "height = 100%"></img>
+
+            </div>
+        </div>
+
+    </body>
+</html>
