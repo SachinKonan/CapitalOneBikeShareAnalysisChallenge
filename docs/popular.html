@@ -1,0 +1,57 @@
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+        .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+        .fa-anchor,.fa-coffee {font-size:200px}
+
+        </style>
+    </head>
+
+    <body>
+        <div class="w3-top">
+            <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+              <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+              <a href="graphics.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Interesting Graphics</a>
+              <a href="questions.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Questions 2-4</a>
+              <a href="extra1.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Seasonal</a>
+              <a href="combos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Trip Combos</a>
+              <a href="popular.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Restock Places</a>
+            </div>
+        </div>
+
+
+        <div class="w3-row-padding w3-padding-64 w3-container">
+
+            <div class="w3-content w3-left" style = "max-width: 550px; margin-left: 80px">
+                    <br>
+                    <br>
+                    <h1>Stations Necessary to Restock Throughout Day</h1>
+                    <p class="w3-text-grey"> A pivot_table was assembled to monitor the Station ID's which had the greatest loss and gain of bikes throughout the day. It is clear that for start stations, the greatest departing stations are stations
+                                             <strong>3014, 3005, and 3030</strong> in the morning, and <strong>3069, 3030, and 3005</strong> in the evening. For ending stations, the greatest reception stations are <strong> 3031 and 3005 </strong> in the morning,
+                                             and in the evening, <strong> 3031, 3069, and 3014</strong>. Since 3005 and 3030 stations are the large start stations in both the afternoon and evening, it is necessary, that between morning and evening
+                                             bikes must be moved to these stations. These bikes could come from 3014 or 3069, whose max input of bikes climaxes at 4 and 12 P.M respectively. This would give transporters to send bikes during the ensuing
+                                             start rush from 3 until 9 P.M. However, the greatest stockpile of bikes ends up collecting at station 3031; its max index is disproportionate. However, station 3031 climaxes at around 8 P.M. to 11P.M., so in order
+                                             to replenish the lack of bikes in stations 3005 and 3030, bikes would have to be moved during the night to these stations for the next day.
+                    </p>
+            </div>
+
+            <div class="w3-right">
+                <img src="imgs/total_counts.PNG" style = "width: 300; margin-right: 40px"></img>
+                <img src ="imgs/morningcounts.PNG" style = "width: 200; margin-right: 40px"> </img>
+                <img src ="imgs/eveningcounts.PNG" style = "width: 200; margin-right: 40px"> </img>
+            </div>
+
+        </div>
+
+
+    </body>
+</html>
